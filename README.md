@@ -1,7 +1,11 @@
 # check-stl-files
 checking stl-files
 
-# Example
+# prerequisites
+   
+   MATLAB R2022b :rose:
+
+# example
 
   DATA_PATH           = "/very/nice/path/";\
   IMAGE_PATH          = "/path/for/images/";\
