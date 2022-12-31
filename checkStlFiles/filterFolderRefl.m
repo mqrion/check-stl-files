@@ -8,6 +8,13 @@ function reflectionCountingMatrix = filterFolderRefl(DATA_PATH,IMAGEPATH,DATASET
 %   IMAGEPATH specifies the path to save the images
 %   DATASETNAME will be used as the name for saving
 
+version = ver('MATLAB').Release;
+
+if(~strcmp(version,'(R2022b)'))
+    fprintf("this is not the right R2022b-version\n");
+    quit(1);
+end
+
 
 %% CONSTANT VAVLUES
 MAXREFLECTIONSPERRAY        = 1;
