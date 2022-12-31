@@ -40,7 +40,7 @@ lfiles                      = length(files);
 % file loop
 for file    = files'
     if   mod(fileCntr, ceil(lfiles/10)) == 0 || fileCntr == lfiles       % output
-        fprintf('%3.0f%% of the CSV-file is ready \n',fileCntr/lfiles*100);
+        fprintf('%3.0f%% of the stl-files are analyzed \n',fileCntr/lfiles*100);
     end
     try
         room = stlFile(strcat(file.folder,"/", file.name), RX, TX,RAYTRACE_PARAMETER, ROOM_SIZE);
