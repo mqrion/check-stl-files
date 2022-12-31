@@ -1,5 +1,5 @@
 # check-stl-files
-checking stl-files
+this repository contains a MATLAB script that allows you to remove stl files from a folder that do not provide a good environment for ray tracing. stl, or standard triangle language, is a file format commonly used for 3d printing and computer-aided design. 
 
 # prerequisites
    
